@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enn Reaksmey</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        table{
+            width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td{
+            border: 2px solid gray;
+            padding: 15px;
+            font-size: 22px;
+        }
+
+        th{
+            background-color: #d8d6ff;
+            font-size: 30px;
+        }
+
+        input[type="text"]{
+            width: 95%;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        select{
+            padding: 8px;
+            font-size: 20px;
+        }
+
+        textarea{
+            width: 98%;
+            height: 180px;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .btn{
+            text-align: center;
+        }
+
+        button{
+            padding: 10px 30px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" placeholder="Enter your name mk bro">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Sex</td>
+            <td>
+                <input type="radio" name="gender"> Male <br>
+                <input type="radio" name="gender" checked> Female
+            </td>
+        </tr>
+
+        <tr>
+            <td>Eye color</td>
+            <td>
+                <select>
+                    <option>green</option>
+                    <option>blue</option>
+                    <option>brown</option>
+                    <option>black</option>
+                    <option>Yellow</option>
+                    <option>red</option>
+                    <option>black</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Check all that apply</td>
+            <td>
+                <input type="checkbox"> Over 6 feet tall <br>
+                <input type="checkbox"> Over 200 pounds
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                Describe your athletic ability:
+                <br><br>
+
+                <textarea></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="btn">
+                <button>Enter my information</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <center>
+        <marquee>
+            <h3>Thank you teacher...</h3>
+        </marquee>
+    </center>
+
+</body>
+</html>
